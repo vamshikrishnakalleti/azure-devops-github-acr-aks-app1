@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: vamshikrishnakalletiazuredevopsgithubacraksapp 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vamshikrishnakalletiazuredevopsgithubacraksapp
+  template:
+    metadata:
+      labels:
+        app: vamshikrishnakalletiazuredevopsgithubacraksapp 
+    spec:
+      containers:
+        - name: vamshikrishnakalletiazuredevopsgithubacraksapp 
+          image: ganeshdevopsacr.azurecr.io/vamshikrishnakalletiazuredevopsgithubacraksapp
+          ports:
+          - containerPort: 80
