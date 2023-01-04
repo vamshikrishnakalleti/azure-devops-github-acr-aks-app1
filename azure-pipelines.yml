@@ -34,7 +34,6 @@ stages:
         repository: '$(imageRepository)'
         command: 'buildAndPush'
         Dockerfile: '$(dockerfilePath)'
-        buildContext: '$(Build.SourcesDirectory)/manifests'
         tags: '$(tag)'
 
     - upload: manifests
