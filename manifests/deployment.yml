@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: app1nginxaks 
-          image: vinayakaacr3.azurecr.io/app1nginxaks
+          image: vigneshwaras.azurecr.io/app1nginxaks
           ports:
           - containerPort: 80
