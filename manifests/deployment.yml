@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app1nginxaks 
-          image: vigneshwaras.azurecr.io/app1nginxaks
+          image: vigneshacr.azurecr.io/app1nginxaks
           imagePullPolicy: IfNotPresent
           ports:
           - containerPort: 80
