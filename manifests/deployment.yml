@@ -17,3 +17,5 @@ spec:
           image: vigneshwaras.azurecr.io/app1nginxaks
           ports:
           - containerPort: 80
+    imagePullSecrets:
+        - name: 'kalyaanreddy-secret'
