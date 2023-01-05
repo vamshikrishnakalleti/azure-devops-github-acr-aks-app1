@@ -67,7 +67,7 @@ stages:
             displayName: Deploy to Kubernetes cluster
             inputs:
               action: 'deploy'
-              kubernetesServiceConnection: 'TwoMSCode-svc'
+              kubernetesServiceConnection: 'kalyaanreddy-svc'
               namespace: 'default'
               manifests: |
                 $(Pipeline.Workspace)/manifests/deployment.yml
