@@ -48,7 +48,7 @@ stages:
     displayName: Deploy
     pool:
       vmImage: $(vmImageName)
-    environment: 'FiveMSCode-env'
+    environment: 'kalyaanreddy-env'
     strategy:
       runOnce:
         deploy:
